@@ -1,0 +1,30 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": "true",
+  "dependencies": {
+    "@apollo/react-hooks": "^3.1.5",
+    "@apollo/react-ssr": "^3.1.5",
+    "@stripe/react-stripe-js": "^1.1.2",
+    "@stripe/stripe-js": "^1.5.0",
+    "apollo-boost": "^0.4.7",
+    "axios": "^0.19.2",
+    "express": "^4.18.2",
+    "graphql": "^15.0.0",
+    "isomorphic-fetch": "^2.2.1",
+    "js-cookie": "^2.2.1",
+    "next": "^9.4.0",
+    "next-apollo": "^3.1.10",
+    "react": "^16.13.1",
+    "react-bootstrap": "^2.7.0",
+    "react-dom": "^16.13.1",
+    "react-hook-form": "^7.41.5",
+    "react-toastify": "^9.1.1",
+    "reactstrap": "^8.6.0"
+  },
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  }
+}
